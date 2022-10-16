@@ -16,7 +16,7 @@ public class Window extends JFrame
        jframe.setSize(400, 400);
        jframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
        jframe.add(windowPanel);
-       
+       jframe.setLocationRelativeTo(null);
 
 
        jframe.setVisible(true);   //It needs to be at the bottom

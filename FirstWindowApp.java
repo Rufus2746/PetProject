@@ -5,7 +5,10 @@ class FirstWindowApp
 
     public static void main(String args[])
     {
+        //windowPanel.setFocusable(true);
+        //windowPanel.requestFocus();
         windowPanel = new WindowPanel();
         window = new Window(windowPanel);
+        windowPanel.requestFocus();
     }
 }
